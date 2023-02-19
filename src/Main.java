@@ -5,6 +5,7 @@ public class Main {
         task4();
         task5();
         task6();
+        task7();
     }
         public static void task1() {
             System.out.println("task 1");
@@ -67,7 +68,7 @@ public class Main {
         }
     }
     public static void task6() {
-        System.out.println("task 5");
+        System.out.println("task 7");
         int oneCar = 102;
         int oneCarSit = 60;
         int standingPlace = oneCar - oneCarSit;
@@ -78,7 +79,20 @@ public class Main {
         }else {
             System.out.println(" В вагоне есть стоячих мест: " + oneCarSit + " сидячих мест: " + standingPlace);
         }
+        System.out.println("=======================================");
+        }
 
+        public static void task7() {
+        System.out.println("task 7");
 
-}
+        int one = 1;
+        int two = 2;
+        int three = 3;
+
+        if( three > two  || three > one){
+            System.out.println( "Переменная three больше переменной one и two");
+        }else {
+            System.out.println("Переменная three меньше переменной one и two");
+        }
+    }
 }
