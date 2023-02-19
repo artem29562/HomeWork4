@@ -4,6 +4,7 @@ public class Main {
         task3();
         task4();
         task5();
+        task6();
     }
         public static void task1() {
             System.out.println("task 1");
@@ -65,4 +66,19 @@ public class Main {
             System.out.println("Если ребенок старше 14 лет, то он может кататься без сопровождения взрослого.");
         }
     }
+    public static void task6() {
+        System.out.println("task 5");
+        int oneCar = 102;
+        int oneCarSit = 60;
+        int standingPlace = oneCar - oneCarSit;
+
+        if(oneCar >= 102){
+            System.out.println("В Вагоне нет мест");
+
+        }else {
+            System.out.println(" В вагоне есть стоячих мест: " + oneCarSit + " сидячих мест: " + standingPlace);
+        }
+
+
+}
 }
